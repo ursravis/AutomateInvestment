@@ -1,0 +1,3 @@
+01/17/2021 03:02:04 PM Starting process
+01/17/2021 03:02:09 PM (554, b'5.2.0 STOREDRV.Submission.Exception:OutboundSpamException; Failed to process message due to a permanent exception with message WASCL UserAction verdict is not None. Actual verdict is RefuseQuota, ShowTierUpgrade. OutboundSpamException: WASCL UserAction verdict is not None. Actual verdict is RefuseQuota, ShowTierUpgrade. [Hostname=PSAPR01MB3864.apcprd01.prod.exchangelabs.com]')
+01/17/2021 03:02:09 PM Cmpleted process
