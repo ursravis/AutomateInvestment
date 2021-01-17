@@ -1,0 +1,1 @@
+"C:/Users/narsagoud/AppData/Local/Programs/Python/Python39/python.exe" "c:/AutomateInvestment/login.py"
