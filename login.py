@@ -1,11 +1,14 @@
-
-
 import emailhelper
 import logging
+import logconfig
 
-logging.basicConfig(filename='logs/logfile.log',level=logging.DEBUG,format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+logger = logging.getLogger(__name__)
 
+def main():
+    logconfig.configure()
+    logger.info('Starting process')
+    emailhelper.sendmail("login Succeed")
+    logging.info('Cmpleted process')
 
-logging.info('Starting process')
-emailhelper.sendmail("login Succeed")
-logging.info('Cmpleted process')
+if __name__ == "__main__":
+    main()
